@@ -14,7 +14,7 @@ function createWindow() {
   });
 
   win.loadURL('http://fish.wawacall.com');
-aa
+
   // 拦截弹窗请求
   win.webContents.on('new-window', (event, url) => {
     event.preventDefault(); // 阻止默认行为
